@@ -16,7 +16,7 @@
                         <div class="card-body">
                             <h5 class="card-title">@item.Title</h5>
                             <p class="card-text">@item.Description</p>
-                            <a href="#" class="btn btn-primary">View</a>
+                            <a asp-controller="Race" asp-action="Detail" asp-route-id="@item.Id" type="button" class="btn btn-primary">View</a>
                             <a href="#" class="btn btn-secondary">Edit</a>
                         </div>
                         <small class="text-muted">@item.RaceCategory</small>
