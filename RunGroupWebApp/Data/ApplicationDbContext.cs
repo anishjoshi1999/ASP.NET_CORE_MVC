@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using RunGroupWebApp.Controllers;
 using RunGroupWebApp.Models;
 
 namespace RunGroupWebApp.Data
